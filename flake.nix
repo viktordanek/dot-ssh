@@ -4,13 +4,13 @@
         {
             lib.generator =
                 {
-                    nixpkgs ,
-                    system ,
                     host ,
                     host-name ,
                     identity-file ,
                     known-hosts ,
+                    nixpkgs ,
                     port ,
+                    system ,
                     user
                 } :
                     let
